@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Task_Manager</string>
+    <string name="filename_value">Nombre del archivo</string>
+    <string name="filecontent_value">Contenido</string>
+    <string name="save_value">Guardar</string>
+</resources>

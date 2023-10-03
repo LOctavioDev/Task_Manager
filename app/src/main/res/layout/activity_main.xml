@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/filename_value"
+        android:id="@+id/txt_filename"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/filecontent_value"
+        android:id="@+id/txt_filecontent"
+        android:layout_below="@id/txt_filename"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_value"
+        android:id="@+id/btn_save"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt_filecontent"
+        android:layout_marginTop="5dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_files"
+        android:layout_below="@id/btn_save"
+
+        />
+</RelativeLayout>
